@@ -15,6 +15,7 @@ Inside media queries 1em is always 16px i.e 1em = 16px at every screen size only
 :root{
   --vr-background: black;
   --vr-background-op8 : rgba(0, 0, 0, 0.8);
+  --vr-myName: #ffffff;
 }
 *,
 *::after,
@@ -65,7 +66,9 @@ button {
 
 textarea {
   resize: none; }
-
+.myName{
+  color: var(--vr-myName);
+}
 .heading-primary {
   font-size: 6rem;
   text-transform: uppercase;
