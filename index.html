@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DCKQVVVGQM"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-DCKQVVVGQM');
-    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -26,7 +17,17 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
-    
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DCKQVVVGQM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DCKQVVVGQM');
+    </script>
+
   </head>
   <body>
     <header class="header">
@@ -207,10 +208,10 @@
               <div class="skills__skill">Linux</div>
               <div class="skills__skill">Wordpress</div>
               <div class="skills__skill">SQL</div>
-              <!-- <div class="skills__skill">Google ADS</div>
-              <div class="skills__skill">Facebook Ads</div>
-              <div class="skills__skill">Android</div>
-              <div class="skills__skill">IOS</div> -->
+              <!-- <div class="skills__skill"></div>
+              <div class="skills__skill"></div>
+              <div class="skills__skill"></div>
+              <div class="skills__skill"></div> -->
             </div>
           </div>
         </div>
@@ -289,6 +290,29 @@
               </p>
               <a
                 href="https://tictactoekk.netlify.app/"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Live Link</a
+              >
+            </div>
+          </div>
+
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-desktop-simulation.jpeg"
+                alt="Calculator Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Desktop Simulation</h3>
+              <p class="projects__row-content-desc">
+                One of my future plans is to make a portfolio website like a Windows desktop simulation and this might be the first version of it.
+              </p>
+              <a
+                href="https://desktopsimulation.netlify.app/"
                 class="btn btn--med btn--theme dynamicBgClr"
                 target="_blank"
                 >Live Link</a
@@ -418,6 +442,6 @@
     </footer>
 
     <script src="./index.js"></script>
-    <script src="dropping.js"></script>   
+   <!--  <script src="dropping.js"></script>    -->
   </body>
 </html>
